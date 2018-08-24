@@ -210,6 +210,13 @@ input, select, textarea {
 		clear: both;
 	}
 
+/* Pdf */
+.pdf {
+	position: relative;
+	padding-top: 25px;
+	height: 0;
+}
+
 /* Container */
 
 	.container {
