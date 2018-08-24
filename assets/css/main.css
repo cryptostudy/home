@@ -213,15 +213,16 @@ input, select, textarea {
 /* Pdf */
 .pdf {
 	position: relative;
-	padding-bottom: 60.25%;
+	padding-bottom: 75%;
 	padding-top: 25px;
 	height: 0;
-	overflow: hidden;
+	/* overflow: hidden; */
 }
 
 .pdf iframe{
 	/* position: absolute; */
 	top: 0;
+	left: 0;
 	width: 70%;
 	height: 100vh;
 }
