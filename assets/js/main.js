@@ -26,6 +26,21 @@
 			}, 100);
 		});
 
+		$('#old_news_0823').on({
+		    'click': function(){
+		        $('#pdf_view').attr('src','0823/0823_뉴스브리핑.pdf');
+		    }
+		});
+		$('#old_news_0824').on({
+				'click': function(){
+						$('#pdf_view').attr('src','0824/0824_뉴스브리핑.pdf');
+				}
+		});
+		$('#old_news_0827').on({
+				'click': function(){
+						$('#pdf_view').attr('src','0827/0827_뉴스브리핑.pdf');
+				}
+		});
 	// Nav.
 		var $nav_a = $nav.find('a');
 
