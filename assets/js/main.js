@@ -63,7 +63,12 @@
 		});
 		$('#old_news_0905').on({
 				'click': function(){
-						$('#pdf_view').attr('src','0904/0905_뉴스브리핑.pdf');
+						$('#pdf_view').attr('src','0905/0905_뉴스브리핑.pdf');
+				}
+		});
+		$('#old_news_0906').on({
+				'click': function(){
+						$('#pdf_view').attr('src','0906/0906_뉴스브리핑.pdf');
 				}
 		});
 	// Nav.
