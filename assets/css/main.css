@@ -226,7 +226,7 @@ input, select, textarea {
 	top: 0;
 	left: 0;
 	width: 100%;
-	height: 101%;
+	height: 100%;
 	border: none;
 }
 
@@ -350,6 +350,18 @@ input, select, textarea {
 		.row > .col-4 {
 			width: 33.3333333333%;
 		}
+
+		#etc_dashboard #vim-status .dashboard_card_view {height: 60%;width: 79px;padding-left: 18px; padding-right:18px; padding-top:12px; float: left;}
+		#etc_dashboard #vim-status .title_name {color:#000000;font-size : 13px;font-weight : bold;}
+		#etc_dashboard #vim-status .status_vim_boxs {height: 100%;width: 70%;margin-left: 10px;margin-top: calc(30% - 10px);}
+		#etc_dashboard #vim-status .Cinder {background:url(/public/img/view/testvim/vim-status-volume.png) no-repeat;}
+		#etc_dashboard #vim-status .Glance {background:url(/public/img/view/testvim/icon-image.png) no-repeat;}
+		#etc_dashboard #vim-status .Horizon {background:url(/public/img/view/testvim/dashboard.png) no-repeat;}
+		#etc_dashboard #vim-status .Keystone {background:url(/public/img/view/testvim/icon-profile.png) no-repeat;}
+		#etc_dashboard #vim-status .Networking {background:url(/public/img/view/testvim/icon-networking.png) no-repeat;}
+		#etc_dashboard #vim-status .Nova {background:url(/public/img/view/testvim/compute.png) no-repeat;}
+		#etc_dashboard #vim-status .check_boxs{float: right;margin-top: -12px;margin-right: -12px;}
+		#etc_dashboard #vim-status .border_boxs{width: 100%;height: 62%;border: 0px solid #e6e6e6;}
 
 		.row > .off-4 {
 			margin-left: 33.3333333333%;
